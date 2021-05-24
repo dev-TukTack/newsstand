@@ -1,12 +1,18 @@
 import react from 'react';
 import NavigationBar from "./header/NavigationBar";
-import {NewsStatndBox} from "./App.style";
+import { NewsStand, Contents } from "./App.style";
+import SideBar from "./contents/SideBar";
+import NewsCards from "./contents/NewsCards";
 
 function App() {
   return (
-      <NewsStatndBox>
+      <NewsStand>
           <NavigationBar/>
-      </NewsStatndBox>
+          <Contents>
+              <SideBar/>
+              <NewsCards/>
+          </Contents>
+      </NewsStand>
   );
 }
 

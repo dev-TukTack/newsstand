@@ -16,8 +16,8 @@ const NavigationBar = () => {
 			</Item>
 
 			<Item flexNum="1" direction="reverse">
-				<MoveButton > {"<"} </MoveButton>
 				<MoveButton > {">"} </MoveButton>
+				<MoveButton > {"<"} </MoveButton>
 			</Item>
 
 		</Container>
